@@ -1,7 +1,7 @@
 {
   "name": "zim32/symfony-tracing-http-client",
   "type": "symfony-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Symfony OpenTelemetry integration for HttpClient component",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony", "httpclient"],
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "zim32/symfony-tracing-core": "*",
     "symfony/dependency-injection": "7.1.* | 6.4.*",
     "symfony/config": "7.1.* | 6.4.*",
